@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Atlas_Triggers_pauseClusters_1625651344",
+        "private": false
+    },
+    {
+        "name": "modifyCluster",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getRunningClusters",
+        "private": false,
+        "run_as_system": true
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "id": "60e56b2f337028c22bd97ba7",
+    "name": "pauseClusters",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 19 * * *"
+    },
+    "function_name": "Atlas_Triggers_pauseClusters_1625651344",
+    "disabled": false
+}
