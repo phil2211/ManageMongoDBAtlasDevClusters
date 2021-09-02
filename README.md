@@ -13,25 +13,29 @@ This RealmApp helps you to keep your cost under control by pausing clusters auto
 - **ProjectId** (you can find it under your project settings in Atlas)
 - **Atlas API** private key (you can create one under Access Manager -> Project Access -> API Keys)
 - **Atlas API** public key
-- **realm-cli** (install it with `npm install -g mongodb-realm-cli`)
+- **realm-cli** (install it with ```npm install -g mongodb-realm-cli```)
 
 ## How to install
 Clone this repository
-`git clone https://github.com/phil2211/AtlasPauseClusters.git`
+```git clone https://github.com/phil2211/AtlasPauseClusters.git```
 
 go to the directory and push with realm-cli
-`cd AtlasPauseClusters`
-`realm-cli push`
+```
+cd AtlasPauseClusters
+realm-cli push
+```
 Walk through the push wizard by selectiong your app name, distribution region, the deployment model (LOCAL is advised) and the App Environment.
 **This will fail with complaining that secrets are missing**
 Add the missing secrets by issuing the following commands:
-`realm-cli sectrets create -n AtlasPrivateKey`
-`realm-cli sectrets create -n AtlasPublicKey`
-`realm-cli sectrets create -n ProjectId`
+```
+realm-cli sectrets create -n AtlasPrivateKey
+realm-cli sectrets create -n AtlasPublicKey
+realm-cli sectrets create -n ProjectId
+```
 Enter the values when prompted on the shell
 
 Now you can re-initiate the push
-`realm-cli push`
+```realm-cli push```
 
 When entering the Atlas [control pane](https://cloud.mongodb.com) you should see the new deployed RealmApp under the Realm tab.
 
