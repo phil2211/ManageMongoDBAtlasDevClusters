@@ -2,7 +2,7 @@ exports = async function() {
   const neverPause = context.values.get("neverPause");
 
   // Get stored projectID
-  const projectID = context.values.get("ClusterId");
+  const projectID = context.values.get("ProjectId");
 
   // Get stored credentials...
   const username = context.values.get("AtlasPublicKey");

@@ -5,6 +5,6 @@
     "config": {
         "schedule": "0 19 * * *"
     },
-    "function_name": "Atlas_Triggers_pauseClusters_1625651344",
+    "function_name": "AtlasPauseClusters",
     "disabled": false
 }
