@@ -4,6 +4,8 @@ RealmApp to pause all clusters in an Atlas project
 ## General description
 This RealmApp helps you to keep your cost under control by pausing clusters automatically with a time based trigger. For example could you pause your development clusters every eavening at a specific time.
 
+This small project is based on the great blogpost from [Brian Leonard](https://www.mongodb.com/blog/post/atlas-cluster-automation-using-scheduled-triggers)
+
 ## Features
 - Pausing clusters at a specifific time (19:00 by default)
 - Auto detects your clusters and pause them all by default
