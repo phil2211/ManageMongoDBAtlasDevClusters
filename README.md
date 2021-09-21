@@ -1,15 +1,20 @@
 # AtlasPauseClusters
-RealmApp to pause all clusters in an Atlas project
+RealmApp to pause,resume and terminate clusters in an Atlas project by using scheduled triggers
 
 ## General description
-This RealmApp helps you to keep your cost under control by pausing clusters automatically with a time based trigger. For example could you pause your development clusters every eavening at a specific time.
+This RealmApp helps you to keep your cost under control by pausing or terminating clusters automatically with a time based trigger. You can also define a list of clusters to resume automatically every morning by using another trigger. Example: you could pause your development clusters every eavening at a specific time and resume them during the week every morning.
+Other Example: You can define a list of cluster names you usually use for demos (Cluster0, Demo, Democluster, etc). These clusters will then be terminated automatically every eavening.
 
 This small project is based on the great blogpost from [Brian Leonard](https://www.mongodb.com/blog/post/atlas-cluster-automation-using-scheduled-triggers)
 
 ## Features
-- Pausing clusters at a specifific time (19:00 by default)
+- Pausing clusters at a specifific time (see pauseClusters trigger)
+- Resuming clusters at a specific time (see resumeClusters trigger)
+- Terminating clusters at a specific time (see terminateClusters trigger)
 - Auto detects your clusters and pause them all by default
-- Possibility to add cluster names to a exclude list to avoid pausing them
+- Possibility to add cluster names to a exclude list to avoid pausing them (see neverPause value in "Values")
+- Possibility to add a list of clusters to resume (see wakeUp value in "Values")
+- Possibility to terminate a list of clusternames (see terminate value in "Values)
 
 ## What you need
 - **ProjectId** (you can find it under your project settings in Atlas)
