@@ -1,16 +1,27 @@
 [
     {
-        "name": "Atlas_Triggers_pauseClusters_1625651344",
-        "private": false
-    },
-    {
-        "name": "modifyCluster",
+        "name": "getClusterNames",
         "private": false,
         "run_as_system": true
     },
     {
-        "name": "getRunningClusters",
-        "private": false,
+        "name": "pauseClusters",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "getApiTemplate",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "terminateClusters",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "resumeClusters",
+        "private": true,
         "run_as_system": true
     }
 ]

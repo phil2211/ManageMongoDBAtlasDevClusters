@@ -1,9 +1,9 @@
 {
-    "name": "pauseClusters",
+    "name": "terminateClusters",
     "type": "SCHEDULED",
     "config": {
         "schedule": "0 18 * * *"
     },
-    "function_name": "pauseClusters",
+    "function_name": "terminateClusters",
     "disabled": false
 }

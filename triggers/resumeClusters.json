@@ -1,0 +1,9 @@
+{
+    "name": "resumeClusters",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 5 * * 1-5"
+    },
+    "function_name": "resumeClusters",
+    "disabled": false
+}

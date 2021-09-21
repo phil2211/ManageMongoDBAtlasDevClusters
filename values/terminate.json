@@ -1,0 +1,11 @@
+{
+    "name": "terminate",
+    "value": [
+        "Cluster0",
+        "Cluster1",
+        "Cluster2",
+        "Temp",
+        "Demo"
+    ],
+    "from_secret": false
+}
