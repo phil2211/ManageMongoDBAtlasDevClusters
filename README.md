@@ -1,4 +1,4 @@
-# AtlasPauseClusters
+# Manage MongoDB Atlas Dev-Clusters using Realm Triggers
 RealmApp to pause,resume and terminate clusters in an Atlas project by using scheduled triggers
 
 ## General description
