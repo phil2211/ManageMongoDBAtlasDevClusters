@@ -24,7 +24,7 @@ This small project is based on the great blogpost from [Brian Leonard](https://w
 
 ## How to install
 Clone this repository
-```git clone https://github.com/phil2211/AtlasPauseClusters.git```
+```git clone https://github.com/phil2211/ManageMongoDBAtlasDevClusters.git```
 
 go to the directory and push with realm-cli
 ```
