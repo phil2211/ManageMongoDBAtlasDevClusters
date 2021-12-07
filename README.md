@@ -28,7 +28,7 @@ Clone this repository
 
 go to the directory and push with realm-cli
 ```
-cd AtlasPauseClusters
+cd ManageMongoDBAtlasDevClusters
 realm-cli push
 ```
 Walk through the push wizard by selectiong your app name, distribution region, the deployment model (LOCAL is advised) and the App Environment.
